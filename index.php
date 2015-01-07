@@ -34,9 +34,9 @@
         <header>
             <div id="header-background"></div>
             <ul class="nav nav-justified nav-pills">
-                <li><a href="index.php?page=PreventionEtInformation_Actualite.tpl"><img src="img/prevention.jpg" class="img-circle img-responsive"></a>Prévention & Information</li>
-                <li><a href="index.php?page=FormCertificatRacine.tpl"><img src="img/vaccination.jpg" class="img-circle img-responsive"></a>Certificat Racine</li>
-                <li><a href="#"><img src="img/deplacement_pop.jpg" class="img-circle img-responsive"></a>Déplacement de population</li>
+                <li><a href="index.php?page=PreventionEtInformation_Actualite.tpl"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>Prévention & Information</li>
+                <li><a href="index.php?page=FormCertificatRacine.tpl"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>Certificat Racine</li>
+                <li><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>Déplacement de population</li>
             </ul>
         </header>
         <div class="container">

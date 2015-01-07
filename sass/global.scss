@@ -57,15 +57,10 @@ header {
             font-weight: bold;
             a {
                 width: 180px;
+                font-size: 30px;
                 margin: auto;
                 &:hover{
                     background-color: inherit !important;
-                }
-
-                img {
-                    width: 80px;
-                    margin: auto;
-                    height: 80px !important;
                 }
             }
         }
