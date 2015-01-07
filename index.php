@@ -40,6 +40,8 @@
             </ul>
         </header>
         <div class="container">
+            <div id="container-head-white"></div>
+            <div id="container-head-gradient"></div>
             <!-- Contenu importé depuis les differentes pages : "nom_page".tpl -->
             <?php
                 if ( $page ) {
@@ -51,6 +53,7 @@
             ?>
         </div>
         <footer>
+            <div id="footer-gradient"></div>
             <div id="footer-background"></div>
         </footer>
     </body>
