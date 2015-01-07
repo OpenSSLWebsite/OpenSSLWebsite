@@ -1,12 +1,14 @@
 /* 
-    Created on : 4 déc. 2014, 20:33:36
-    Author     : Pipe My Fork - Nuit de l'info 2014
+    Name :          OpenSSLWebsite
+    Created on :    7 jan. 2015, 09:00:36
+    Author     :    Pacheco Mélanie | Passé Valentin | Fillon Vincent
 */
 /* 
-    Created on : 5 déc. 2014, 00:26:16
-    Author     : Pipe My Fork - Nuit de l'info 2014
+    Name :          OpenSSLWebsite
+    Created on :    7 jan. 2015, 09:00:36
+    Author     :    Pacheco Mélanie | Passé Valentin | Fillon Vincent
 */
-/* line 8, ../sass/global.scss */
+/* line 9, ../sass/global.scss */
 html, body {
   height: 100%;
   font-family: Century Gothic;
@@ -16,17 +18,17 @@ html, body {
 /* Background DIV */
 /* Chrome, Safari, Opera */
 @-webkit-keyframes header-background {
-  /* line 17, ../sass/global.scss */
+  /* line 18, ../sass/global.scss */
   0% {
     height: 95px;
   }
 
-  /* line 18, ../sass/global.scss */
+  /* line 19, ../sass/global.scss */
   50% {
     height: 50%;
   }
 
-  /* line 19, ../sass/global.scss */
+  /* line 20, ../sass/global.scss */
   100% {
     height: 95px;
   }
@@ -34,17 +36,17 @@ html, body {
 
 /* Standard syntax */
 @keyframes header-background {
-  /* line 24, ../sass/global.scss */
+  /* line 25, ../sass/global.scss */
   0% {
     height: 95px;
   }
 
-  /* line 25, ../sass/global.scss */
+  /* line 26, ../sass/global.scss */
   50% {
     height: 50%;
   }
 
-  /* line 26, ../sass/global.scss */
+  /* line 27, ../sass/global.scss */
   100% {
     height: 95px;
   }
@@ -53,17 +55,17 @@ html, body {
 /* Buttons */
 /* Chrome, Safari, Opera */
 @-webkit-keyframes header-buttons {
-  /* line 32, ../sass/global.scss */
+  /* line 33, ../sass/global.scss */
   0% {
     padding-top: 0px;
   }
 
-  /* line 33, ../sass/global.scss */
+  /* line 34, ../sass/global.scss */
   50% {
     padding-top: 40.5vh;
   }
 
-  /* line 34, ../sass/global.scss */
+  /* line 35, ../sass/global.scss */
   100% {
     padding-top: 0px;
   }
@@ -71,28 +73,28 @@ html, body {
 
 /* Standard syntax */
 @keyframes header-buttons {
-  /* line 39, ../sass/global.scss */
+  /* line 40, ../sass/global.scss */
   0% {
     padding-top: 0px;
   }
 
-  /* line 40, ../sass/global.scss */
+  /* line 41, ../sass/global.scss */
   50% {
     padding-top: 40.5vh;
   }
 
-  /* line 41, ../sass/global.scss */
+  /* line 42, ../sass/global.scss */
   100% {
     padding-top: 0px;
   }
 }
 
-/* line 44, ../sass/global.scss */
+/* line 45, ../sass/global.scss */
 header {
   position: absolute;
   height: 100%;
 }
-/* line 47, ../sass/global.scss */
+/* line 48, ../sass/global.scss */
 header #header-background {
   width: 100%;
   position: absolute;
@@ -100,22 +102,22 @@ header #header-background {
   background-color: #397bce;
   border-bottom: 5px solid #333333;
 }
-/* line 55, ../sass/global.scss */
+/* line 56, ../sass/global.scss */
 header ul li {
   text-align: center;
   font-size: 18px;
   font-weight: bold;
 }
-/* line 59, ../sass/global.scss */
+/* line 60, ../sass/global.scss */
 header ul li a {
   width: 180px;
   margin: auto;
 }
-/* line 62, ../sass/global.scss */
+/* line 63, ../sass/global.scss */
 header ul li a:hover {
   background-color: inherit !important;
 }
-/* line 66, ../sass/global.scss */
+/* line 67, ../sass/global.scss */
 header ul li a img {
   z-index: 1;
   width: 150px;
@@ -123,42 +125,42 @@ header ul li a img {
   height: 150px !important;
 }
 
-/* line 77, ../sass/global.scss */
+/* line 78, ../sass/global.scss */
 .container {
   padding-top: 200px;
   overflow: auto;
   min-height: 100%;
   padding-bottom: 105px;
 }
-/* line 82, ../sass/global.scss */
+/* line 83, ../sass/global.scss */
 .container img {
   margin: auto;
 }
 
 /* Acutalité */
-/* line 88, ../sass/global.scss */
+/* line 89, ../sass/global.scss */
 .cadre-contenu {
   display: block;
 }
-/* line 91, ../sass/global.scss */
+/* line 92, ../sass/global.scss */
 .cadre-contenu img {
   float: left;
   margin-right: 15px;
 }
 
-/* line 97, ../sass/global.scss */
+/* line 98, ../sass/global.scss */
 .cadre-menu-actualite {
   /*border: 2px solid $header_background;*/
   width: 100%;
 }
-/* line 101, ../sass/global.scss */
+/* line 102, ../sass/global.scss */
 .cadre-menu-actualite .centrer {
   margin-left: 2px;
 }
 
 /* --Acutalité-- */
 /* Vaccination */
-/* line 111, ../sass/global.scss */
+/* line 112, ../sass/global.scss */
 .vaccination-container h1 {
   text-align: center;
   color: red;
@@ -169,17 +171,17 @@ header ul li a img {
 /* Background DIV */
 /* Chrome, Safari, Opera */
 @-webkit-keyframes footer-background {
-  /* line 123, ../sass/global.scss */
+  /* line 124, ../sass/global.scss */
   0% {
     height: 95px;
   }
 
-  /* line 124, ../sass/global.scss */
+  /* line 125, ../sass/global.scss */
   50% {
     height: 50%;
   }
 
-  /* line 125, ../sass/global.scss */
+  /* line 126, ../sass/global.scss */
   100% {
     height: 95px;
   }
@@ -187,30 +189,30 @@ header ul li a img {
 
 /* Standard syntax */
 @keyframes footer-background {
-  /* line 130, ../sass/global.scss */
+  /* line 131, ../sass/global.scss */
   0% {
     height: 95px;
   }
 
-  /* line 131, ../sass/global.scss */
+  /* line 132, ../sass/global.scss */
   50% {
     height: 50%;
   }
 
-  /* line 132, ../sass/global.scss */
+  /* line 133, ../sass/global.scss */
   100% {
     height: 95px;
   }
 }
 
-/* line 135, ../sass/global.scss */
+/* line 136, ../sass/global.scss */
 footer {
   z-index: 2;
 }
-/* line 137, ../sass/global.scss */
+/* line 138, ../sass/global.scss */
 footer #footer-background {
   z-index: 2;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 95px;
