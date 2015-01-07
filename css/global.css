@@ -19,7 +19,7 @@ html, body {
 /* Chrome, Safari, Opera */
 @-webkit-keyframes header-background {
   /* line 18, ../sass/global.scss */
-  0% {
+  0%, 100% {
     height: 60px;
   }
 
@@ -27,75 +27,55 @@ html, body {
   50% {
     height: 50%;
   }
-
-  /* line 20, ../sass/global.scss */
-  100% {
-    height: 60px;
-  }
 }
 
 /* Standard syntax */
 @keyframes header-background {
-  /* line 25, ../sass/global.scss */
-  0% {
+  /* line 24, ../sass/global.scss */
+  0%, 100% {
     height: 60px;
   }
 
-  /* line 26, ../sass/global.scss */
+  /* line 25, ../sass/global.scss */
   50% {
     height: 50%;
-  }
-
-  /* line 27, ../sass/global.scss */
-  100% {
-    height: 60px;
   }
 }
 
 /* Buttons */
 /* Chrome, Safari, Opera */
 @-webkit-keyframes header-buttons {
-  /* line 33, ../sass/global.scss */
-  0% {
+  /* line 31, ../sass/global.scss */
+  0%, 100% {
     padding-top: 0px;
   }
 
-  /* line 34, ../sass/global.scss */
+  /* line 32, ../sass/global.scss */
   50% {
     padding-top: 40.5vh;
-  }
-
-  /* line 35, ../sass/global.scss */
-  100% {
-    padding-top: 0px;
   }
 }
 
 /* Standard syntax */
 @keyframes header-buttons {
-  /* line 40, ../sass/global.scss */
-  0% {
+  /* line 37, ../sass/global.scss */
+  0%, 100% {
     padding-top: 0px;
   }
 
-  /* line 41, ../sass/global.scss */
+  /* line 38, ../sass/global.scss */
   50% {
     padding-top: 40.5vh;
   }
-
-  /* line 42, ../sass/global.scss */
-  100% {
-    padding-top: 0px;
-  }
 }
 
-/* line 45, ../sass/global.scss */
+/* line 41, ../sass/global.scss */
 header {
   position: fixed;
   height: 100%;
   z-index: 3;
 }
-/* line 49, ../sass/global.scss */
+/* line 45, ../sass/global.scss */
 header #header-background {
   width: 100%;
   position: fixed;
@@ -103,33 +83,33 @@ header #header-background {
   background-color: #397bce;
   border-bottom: 5px solid #333333;
 }
-/* line 56, ../sass/global.scss */
+/* line 52, ../sass/global.scss */
 header ul {
   position: fixed;
 }
-/* line 58, ../sass/global.scss */
+/* line 54, ../sass/global.scss */
 header ul li {
   text-align: center;
   font-size: 18px;
   font-weight: bold;
 }
-/* line 62, ../sass/global.scss */
+/* line 58, ../sass/global.scss */
 header ul li a {
   width: 180px;
   margin: auto;
 }
-/* line 65, ../sass/global.scss */
+/* line 61, ../sass/global.scss */
 header ul li a:hover {
   background-color: inherit !important;
 }
-/* line 69, ../sass/global.scss */
+/* line 65, ../sass/global.scss */
 header ul li a img {
   width: 80px;
   margin: auto;
   height: 80px !important;
 }
 
-/* line 79, ../sass/global.scss */
+/* line 75, ../sass/global.scss */
 .container {
   position: relative;
   z-index: 1;
@@ -138,7 +118,7 @@ header ul li a img {
   min-height: 100%;
   padding-bottom: 105px;
 }
-/* line 86, ../sass/global.scss */
+/* line 82, ../sass/global.scss */
 .container #container-head-white {
   position: fixed;
   z-index: 2;
@@ -147,7 +127,7 @@ header ul li a img {
   height: 75px;
   background-color: white;
 }
-/* line 94, ../sass/global.scss */
+/* line 90, ../sass/global.scss */
 .container #container-head-gradient {
   position: fixed;
   z-index: 2;
@@ -156,35 +136,35 @@ header ul li a img {
   height: 75px;
   background-image: linear-gradient(#ffffff, transparent);
 }
-/* line 102, ../sass/global.scss */
+/* line 98, ../sass/global.scss */
 .container img {
   margin: auto;
 }
 
 /* Acutalité */
-/* line 108, ../sass/global.scss */
+/* line 104, ../sass/global.scss */
 .cadre-contenu {
   display: block;
 }
-/* line 111, ../sass/global.scss */
+/* line 107, ../sass/global.scss */
 .cadre-contenu img {
   float: left;
   margin-right: 15px;
 }
 
-/* line 117, ../sass/global.scss */
+/* line 113, ../sass/global.scss */
 .cadre-menu-actualite {
   border: 2px solid #397bce;
   width: 100%;
 }
-/* line 121, ../sass/global.scss */
+/* line 117, ../sass/global.scss */
 .cadre-menu-actualite .centrer {
   margin-left: 2px;
 }
 
 /* --Acutalité-- */
 /* Vaccination */
-/* line 131, ../sass/global.scss */
+/* line 127, ../sass/global.scss */
 .vaccination-container h1 {
   text-align: center;
   color: red;
@@ -195,45 +175,35 @@ header ul li a img {
 /* Background DIV */
 /* Chrome, Safari, Opera */
 @-webkit-keyframes footer-background {
-  /* line 143, ../sass/global.scss */
-  0% {
+  /* line 139, ../sass/global.scss */
+  0%, 100% {
     height: 60px;
   }
 
-  /* line 144, ../sass/global.scss */
+  /* line 140, ../sass/global.scss */
   50% {
     height: 50%;
-  }
-
-  /* line 145, ../sass/global.scss */
-  100% {
-    height: 60px;
   }
 }
 
 /* Standard syntax */
 @keyframes footer-background {
-  /* line 150, ../sass/global.scss */
-  0% {
+  /* line 145, ../sass/global.scss */
+  0%, 100% {
     height: 60px;
   }
 
-  /* line 151, ../sass/global.scss */
+  /* line 146, ../sass/global.scss */
   50% {
     height: 50%;
   }
-
-  /* line 152, ../sass/global.scss */
-  100% {
-    height: 60px;
-  }
 }
 
-/* line 155, ../sass/global.scss */
+/* line 149, ../sass/global.scss */
 footer {
   padding-top: 100px;
 }
-/* line 157, ../sass/global.scss */
+/* line 151, ../sass/global.scss */
 footer #footer-gradient {
   position: fixed;
   z-index: 3;
@@ -242,7 +212,7 @@ footer #footer-gradient {
   height: 100px;
   background-image: linear-gradient(transparent, #ffffff);
 }
-/* line 165, ../sass/global.scss */
+/* line 159, ../sass/global.scss */
 footer #footer-background {
   position: fixed;
   z-index: 3;
