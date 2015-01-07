@@ -9,13 +9,13 @@
 </br>
 	<form method="post" class="form-horizontal" role="form">
 		<div class="form-group">
-			<label class="col-sm-2 control-label" style="color:white">Clé privé : </label>
+			<label class="col-sm-2 control-label" style="color:white">Clé privée : </label>
 			<div class="col-sm-10">
-				<input name="cleprivee" type="text" class="form-control" disabled>
+				<input name="cleprivee" type="text" class="form-control" readonly>
 			</div>		
 		</div>
 		<div class="form-group">
-	      	<div class="col-sm-offset-5 col-sm-3">
+	      	<div class="col-sm-offset-9 col-sm-3">
 	            <button name="genererCle" type="submit" class="btn btn-primary" style="width:100%">Générer la clé privé</button>
 	      	</div>
 	    </div>
@@ -67,11 +67,41 @@
           </div>
         </div>
         <div class="form-group">
-          <div class="col-sm-offset-2 col-sm-10">
-            <button name="valider" type="submit" class="btn btn-primary">Envoyer</button>
+          <div class="col-sm-offset-9 col-sm-3">
+            <button name="valider" type="submit" class="btn btn-primary" style="width:100%">Générer</button>
           </div>
         </div>
 </form>
+
+<div class="form-horizontal">
+  <div class="form-group">
+    <div class="col-sm-6">
+      <label for="textRequete" class="control-label">Requête : </label>
+      <textarea id="textRequete" name="Requete" class="form-control" rows="3" readonly></textarea>
+    </div>
+    <div class="col-sm-6">
+      <label for="textCertificat" class="control-label">Certificat : </label>
+      <textarea id="textCertificat" name="Requete" class="form-control" rows="3" readonly></textarea>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-3 col-sm-2">
+      <form method="post" role="form">
+        <button name="telClePrivee" type="submit" class="btn btn-primary">Télécharger Clé privée</button>
+      </form>
+    </div>
+    <div class="col-sm-2">
+      <form method="post" role="form">
+        <button name="telRequete" type="submit" class="btn btn-primary">Télécharger Requête</button>
+      </form>
+    </div>
+    <div class="col-sm-2">
+      <form method="post" role="form">
+        <button name="telCertificat" type="submit" class="btn btn-primary">Télécharger Certificat</button>
+      </form>
+    </div>
+  </div>
+</div>
 
     <?php
         if(isset($_POST['valider'])){
