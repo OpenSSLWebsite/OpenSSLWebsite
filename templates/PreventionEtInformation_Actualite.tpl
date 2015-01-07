@@ -1,5 +1,5 @@
 <div class="Actualite">
-	<h1>BlaBlaBla</h1>
+	<h1>Lorem ipsum</h1>
 
 
 	<div class="row">
