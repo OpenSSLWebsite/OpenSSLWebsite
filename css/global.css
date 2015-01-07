@@ -20,7 +20,7 @@ html, body {
 @-webkit-keyframes header-background {
   /* line 18, ../sass/global.scss */
   0% {
-    height: 95px;
+    height: 60px;
   }
 
   /* line 19, ../sass/global.scss */
@@ -30,7 +30,7 @@ html, body {
 
   /* line 20, ../sass/global.scss */
   100% {
-    height: 95px;
+    height: 60px;
   }
 }
 
@@ -38,7 +38,7 @@ html, body {
 @keyframes header-background {
   /* line 25, ../sass/global.scss */
   0% {
-    height: 95px;
+    height: 60px;
   }
 
   /* line 26, ../sass/global.scss */
@@ -48,7 +48,7 @@ html, body {
 
   /* line 27, ../sass/global.scss */
   100% {
-    height: 95px;
+    height: 60px;
   }
 }
 
@@ -99,7 +99,7 @@ header {
 header #header-background {
   width: 100%;
   position: fixed;
-  height: 95px;
+  height: 60px;
   background-color: #397bce;
   border-bottom: 5px solid #333333;
 }
@@ -124,9 +124,9 @@ header ul li a:hover {
 }
 /* line 69, ../sass/global.scss */
 header ul li a img {
-  width: 150px;
+  width: 115px;
   margin: auto;
-  height: 150px !important;
+  height: 115px !important;
 }
 
 /* line 79, ../sass/global.scss */
@@ -142,7 +142,7 @@ header ul li a img {
 .container #container-head-white {
   position: fixed;
   z-index: 2;
-  top: 95px;
+  top: 60px;
   width: 100%;
   height: 75px;
   background-color: white;
@@ -151,7 +151,7 @@ header ul li a img {
 .container #container-head-gradient {
   position: fixed;
   z-index: 2;
-  top: 170px;
+  top: 135px;
   width: 100%;
   height: 75px;
   background-image: linear-gradient(#ffffff, transparent);
@@ -197,7 +197,7 @@ header ul li a img {
 @-webkit-keyframes footer-background {
   /* line 143, ../sass/global.scss */
   0% {
-    height: 95px;
+    height: 60px;
   }
 
   /* line 144, ../sass/global.scss */
@@ -207,7 +207,7 @@ header ul li a img {
 
   /* line 145, ../sass/global.scss */
   100% {
-    height: 95px;
+    height: 60px;
   }
 }
 
@@ -215,7 +215,7 @@ header ul li a img {
 @keyframes footer-background {
   /* line 150, ../sass/global.scss */
   0% {
-    height: 95px;
+    height: 60px;
   }
 
   /* line 151, ../sass/global.scss */
@@ -225,7 +225,7 @@ header ul li a img {
 
   /* line 152, ../sass/global.scss */
   100% {
-    height: 95px;
+    height: 60px;
   }
 }
 
@@ -237,7 +237,7 @@ footer {
 footer #footer-gradient {
   position: fixed;
   z-index: 3;
-  bottom: 95px;
+  bottom: 60px;
   width: 100%;
   height: 100px;
   background-image: linear-gradient(transparent, #ffffff);
@@ -248,7 +248,7 @@ footer #footer-background {
   z-index: 3;
   bottom: 0;
   width: 100%;
-  height: 95px;
+  height: 60px;
   background-color: #383f50;
   border-top: 5px solid #333333;
 }

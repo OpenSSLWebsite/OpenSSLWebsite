@@ -15,16 +15,16 @@ html, body {
 /* Background DIV */
 /* Chrome, Safari, Opera */
 @-webkit-keyframes header-background {
-    0%   {height: 95px;}
+    0%   {height: 60px;}
     50%  {height: 50%;}
-    100% {height: 95px;}
+    100% {height: 60px;}
 }
 
 /* Standard syntax */
 @keyframes header-background {
-    0%   {height: 95px;}
+    0%   {height: 60px;}
     50%  {height: 50%;}
-    100% {height: 95px;}
+    100% {height: 60px;}
 }
 
 /* Buttons */
@@ -49,7 +49,7 @@ header {
     #header-background {
         width: 100%;
         position: fixed;
-        height: 95px;
+        height: 60px;
         background-color: $header-background;
         border-bottom: 5px solid $border-color;
     }
@@ -67,9 +67,9 @@ header {
                 }
 
                 img {
-                    width: 150px;
+                    width: 115px;
                     margin: auto;
-                    height: 150px !important;
+                    height: 115px !important;
                 }
             }
         }
@@ -86,7 +86,7 @@ header {
     #container-head-white {
         position: fixed;
         z-index: 2;
-        top: 95px;
+        top: 60px;
         width: 100%;
         height:75px;
         background-color: white;
@@ -94,7 +94,7 @@ header {
     #container-head-gradient {
         position: fixed;
         z-index: 2;
-        top: 170px;
+        top: 135px;
         width: 100%;
         height:75px;
         background-image: linear-gradient(white, transparent);
@@ -140,16 +140,16 @@ header {
 /* Background DIV */
 /* Chrome, Safari, Opera */
 @-webkit-keyframes footer-background {
-    0%   {height: 95px;}
+    0%   {height: 60px;}
     50%  {height: 50%;}
-    100% {height: 95px;}
+    100% {height: 60px;}
 }
 
 /* Standard syntax */
 @keyframes footer-background {
-    0%   {height: 95px;}
+    0%   {height: 60px;}
     50%  {height: 50%;}
-    100% {height: 95px;}
+    100% {height: 60px;}
 }
 
 footer {
@@ -157,7 +157,7 @@ footer {
     #footer-gradient {
         position: fixed;
         z-index: 3;
-        bottom: 95px;
+        bottom: 60px;
         width: 100%;
         height:100px;
         background-image: linear-gradient(transparent, white);
@@ -167,7 +167,7 @@ footer {
         z-index: 3;
         bottom: 0;
         width: 100%;
-        height: 95px;
+        height: 60px;
         background-color: $footer-background;
         border-top: 5px solid $border-color;
     }
