@@ -1,10 +1,5 @@
 <div class="Actualite">
-	<h1>
-	<?php
-	$actu = new Actualites(1);
-	echo $actu->getTitre();
-	?> 
-	<small>26/10/2014</small></h1>
+	<h1>BlaBlaBla</h1>
 
 
 	<div class="row">
