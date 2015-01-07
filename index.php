@@ -1,24 +1,21 @@
 <!DOCTYPE html>
 <!--
-    Created on : 4 déc. 2014, 20:33:36
-    Author     : Pipe My Fork - Nuit de l'info 2014
+    Name :          OpenSSLWebsite
+    Created on :    7 jan. 2015, 09:00:36
+    Author     :    Pacheco Mélanie | Passé Valentin | Fillon Vincent
 -->
 
 <?php
     $page = (isset($_GET['page'])) ? htmlentities($_GET['page']) : NULL;
-    include 'Models/pdo.php';
-    include 'Models/Class.Actualites.php';
-    include 'Models/Class.ListActualites.php';
-    include 'Models/Class.Personnes.php';
 ?>
 
 <html>
     <head>
-        <title>Humanitaire 2.0</title>
+        <title>OpenSSLWebsite</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Humanitaire 2.0">
-        <meta name="author" content="Equipe Pipe My Fork - Nuit de l'info 2014">
+        <meta name="description" content="OpenSSLWebsite">
+        <meta name="author" content="Pacheco Mélanie | Passé Valentin | Fillon Vincent">
         <!-- TODO   =>  Choisir un favicon et le placer dans le dossier img/
         <link rel="shortcut icon" href="images/favicon.ico"/>
         -->
