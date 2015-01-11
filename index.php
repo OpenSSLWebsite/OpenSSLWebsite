@@ -34,9 +34,9 @@
         <header>
             <div id="header-background"></div>
             <ul class="nav nav-justified nav-pills">
-                <li><a href="index.php?page=PreventionEtInformation_Actualite.tpl"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>Prévention & Information</li>
-                <li><a href="index.php?page=FormCertificatRacine.tpl"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>Certificat Racine</li>
-                <li><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>Déplacement de population</li>
+                <li><a href="index.php?page=FormCertificatRacine.tpl"><span class="glyphicon glyphicon-inbox" aria-hidden="true"></span></a>Certificat Racine</li>
+                <li><a href="index.php?page=FormCertificatPersonnel.tpl"><span class="glyphicon glyphicon-file" aria-hidden="true"></span></a>Certificat Personnel</li>                
+                <li><a href="index.php?page=FormChiffreDechiffre.tpl"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></a>Chiffrement / Déchiffrement</li>
             </ul>
         </header>
         <div class="container">
@@ -48,7 +48,7 @@
                     include('templates/' . $page);
                 }
                 else {
-                    include('templates/PreventionEtInformation_Actualite.tpl');
+                    include('templates/FormCertificatRacine.tpl');
                 }
             ?>
         </div>
