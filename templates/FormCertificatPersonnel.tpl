@@ -7,11 +7,11 @@
 
 <div class="cadre-menu-actualite img-thumbnail" style="width: 100%; background-color:#86B0E7; margin-bottom:10px">
 </br>
-	<form method="post" class="form-horizontal" role="form">
+	<form method="post" class="form-horizontal" role="form" action="modeles/newClePrivee.php">
 		<div class="form-group">
 			<label class="col-sm-2 control-label" style="color:white">Clé privée : </label>
 			<div class="col-sm-7">
-				<input name="cleprivee" type="text" class="form-control" readonly>
+				<input name="cleprivee" type="text" class="form-control" value="<?php if(isset($_GET('privkey'))) echo $_GET('privkey');  ?>" readonly>
 			</div>		
     	<div class="col-sm-3">
           <button name="genererCle" type="submit" class="btn btn-primary" style="width:100%">Générer la clé privée</button>
@@ -25,11 +25,11 @@
   <div class="form-group">
     <label class="col-sm-2 control-label">Certificat racine : </label>
     <div class="col-sm-4">
-      <input name="nom" type="text" class="form-control" placeholder="Nom" required>
+      <input type="file" id="cerRac" name="cerRac" class="form-control" required />
     </div>
     <label class="col-sm-2 control-label">Clé privée racine : </label>
     <div class="col-sm-4">
-      <input name="nom" type="text" class="form-control" placeholder="Nom" required>
+      <input type="file" id="clePri" name="clePri" class="form-control" required />
     </div>
   </div>
   <div class="form-group">
