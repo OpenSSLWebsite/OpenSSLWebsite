@@ -5,23 +5,6 @@
     <h1 style="text-align: center; color: red">Génération d'un certificat personnel</h1>
 
 
-<div class="cadre-menu-actualite img-thumbnail" style="width: 100%; background-color:#86B0E7; margin-bottom:10px">
-</br>
-	<form method="post" class="form-horizontal" role="form" action="modeles/newClePrivee.php">
-		<div class="form-group">
-			<label class="col-sm-2 control-label" style="color:white">Clé privée : </label>
-			<div class="col-sm-7">
-				<input name="cleprivee" type="text" class="form-control" value="" readonly>
-        <!--  if(isset($_GET('privkey'))) echo $_GET('privkey');  -->
-			</div>		
-    	<div class="col-sm-3">
-          <button name="genererCle" type="submit" class="btn btn-primary" style="width:100%">Générer la clé privée</button>
-    	</div>
-    </div>
-	</Form>
-</div>
-<!--<p class="centrer img-thumbnail" style="width: 100%; background-color:#397bce;"></p>-->
-
 <form method="post" class="form-horizontal" role="form">
   <div class="form-group">
     <label class="col-sm-2 control-label">Certificat racine : </label>
@@ -84,11 +67,15 @@
 
 <div class="form-horizontal">
   <div class="form-group">
-    <div class="col-sm-6">
+    <div class="col-sm-4">
+      <label for="textKeyPrivate" class="control-label">Clé Privée : </label>
+      <textarea id="textKeyPrivate" name="textKeyPrivate" class="form-control" rows="3" readonly></textarea>
+    </div>
+    <div class="col-sm-4">
       <label for="textRequete" class="control-label">Requête : </label>
       <textarea id="textRequete" name="Requete" class="form-control" rows="3" readonly></textarea>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-4">
       <label for="textCertificat" class="control-label">Certificat : </label>
       <textarea id="textCertificat" name="Requete" class="form-control" rows="3" readonly></textarea>
     </div>
