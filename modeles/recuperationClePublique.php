@@ -6,7 +6,7 @@ $configars = array("config"=>"C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\b
 $certificate = "certificatPerso.txt"; 
 
 //récupération de la clé publique du certificat Perso 
-$pkPub = resource openssl_pkey_get_public ( mixed $certificate );
+$pkPub = openssl_pkey_get_public ( $certificate );
 
 //clé publique exporter dans un fichier 
 openssl_pkey_export_to_file($pkPub, "CléPublique.txt");
