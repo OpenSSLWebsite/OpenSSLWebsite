@@ -1,8 +1,8 @@
 <?php
 
 function certificatRacine (String $cn, String $sopn, String $ln, String $on, String $oun, String $comN, String $mail){
-    //code conseiller d'ajouter a chaque ddébut de fichier créer
-    $configars = array("config"=>"C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\binaries\php\php_runningversion\extras\openssl.cnf");
+    //on inclue en début de code la configuration de openssl
+    include('configurationSSL.php');
 
     // Assigne les valeurs du nom distingué à utiliser avec le certificat.
     $dn = array(
