@@ -3,7 +3,7 @@
 include('configurationSSL.php');
 $privkey = openssl_pkey_new();
 
-header("Location: ../index.php?page=pictionary.tpl&kprivkey=".$privkey);
+header("Location: ../index.php?page=FormCertificatRacine.tpl&kprivkey=".openssl_pkey_get_private($privkey));
 
 
 ?>

@@ -11,7 +11,8 @@
 		<div class="form-group">
 			<label class="col-sm-2 control-label" style="color:white">Clé privée : </label>
 			<div class="col-sm-7">
-				<input name="cleprivee" type="text" class="form-control" value="<?php if(isset($_GET('privkey'))) echo $_GET('privkey');  ?>" readonly>
+				<input name="cleprivee" type="text" class="form-control" value="" readonly>
+        <!--  if(isset($_GET('privkey'))) echo $_GET('privkey');  -->
 			</div>		
     	<div class="col-sm-3">
           <button name="genererCle" type="submit" class="btn btn-primary" style="width:100%">Générer la clé privée</button>
