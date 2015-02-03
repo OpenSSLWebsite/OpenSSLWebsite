@@ -5,7 +5,7 @@
     <h1 style="text-align: center; color: red">Génération d'un certificat personnel</h1>
 
 
-<form method="post" class="form-horizontal" role="form">
+<form action="modeles/certificatPersonnel.php" method="post" class="form-horizontal" role="form">
   <div class="form-group">
     <label class="col-sm-2 control-label">Certificat racine : </label>
     <div class="col-sm-4">
@@ -106,11 +106,4 @@
   </div>
 </div>
 
-    <?php
-        if(isset($_POST['valider'])){
-            if (isset ($_POST['nom'])&&isset($_POST['prenom'])&&isset($_POST['age'])&&isset($_POST['sexe'])){
-                Personnes::addPersonne($_POST['nom'], $_POST['prenom'], $_POST['age'],$_POST['sexe']);
-            }
-        }
-    ?>
 </div>

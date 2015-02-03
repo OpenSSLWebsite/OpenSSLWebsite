@@ -7,6 +7,7 @@
  */
 
 //code conseiller d'ajouter a chaque ddébut de fichier créer
-$configars = array("config"=>"C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\binaries\php\php_runningversion\extras\openssl.cnf");
+$configars = array("config"=>"C:\\Program Files (x86)\\EasyPHP-DevServer-14.1VC11\\binaries\\apache\\conf\openssl.cnf"/*,
+                    "config"=>"C:\\Program Files (x86)\\EasyPHP-DevServer-14.1VC11\\binaries\\php\\php_runningversion\\extras\\ssl\openssl.cnf"*/);
 
 ?>

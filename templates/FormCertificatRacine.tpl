@@ -4,7 +4,7 @@
 <div class="vacciner-container">
     <h1 style="text-align: center; color: red">Génération d'un certificat racine</h1>
 
-<form method="post" class="form-horizontal" role="form">
+<form action="modeles/certificatInitial.php" method="post" class="form-horizontal" role="form">
         <div class="form-group">
           <label class="col-sm-2 control-label">Nom : </label>
           <div class="col-sm-10">
@@ -94,12 +94,4 @@
     </div>
   </div>
 </div>
-
-    <?php
-        if(isset($_POST['valider'])){
-            if (isset ($_POST['nom'])&&isset($_POST['prenom'])&&isset($_POST['age'])&&isset($_POST['sexe'])){
-                Personnes::addPersonne($_POST['nom'], $_POST['prenom'], $_POST['age'],$_POST['sexe']);
-            }
-        }
-    ?>
 </div>

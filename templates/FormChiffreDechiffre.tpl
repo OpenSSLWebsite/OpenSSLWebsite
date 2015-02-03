@@ -68,12 +68,4 @@
     </div>
   </div>
 </div>
-
-    <?php
-        if(isset($_POST['valider'])){
-            if (isset ($_POST['nom'])&&isset($_POST['prenom'])&&isset($_POST['age'])&&isset($_POST['sexe'])){
-                Personnes::addPersonne($_POST['nom'], $_POST['prenom'], $_POST['age'],$_POST['sexe']);
-            }
-        }
-    ?>
 </div>
