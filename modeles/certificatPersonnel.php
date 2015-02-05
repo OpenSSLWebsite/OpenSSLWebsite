@@ -1,8 +1,17 @@
 <?php
-function certificat(String $cn, String $sopn, String $ln, String $on, String $oun, String $comN, String $mail){
 
-	//on inclue en début de code la configuration de openssl
-	include('configurationSSL.php');
+//on inclue ici le fichier de configuration
+include('configurationSSL.php');
+
+$comN=stripslashes($_POST['commonName']);
+$on=stripslashes($_POST['organizationName']);
+$oun=stripslashes($_POST['organizationUnitName']);
+$mail=stripslashes($_POST['emailAdress']);
+$ln=stripslashes($_POST['localityName']);
+$sopn=stripslashes($_POST['stateOrProvinceName']);
+$cn=stripslashes($_POST['countryName']);
+
+if (isset($cn) && isset($sopn) && isset($ln) && isset($on) && isset($oun) && isset($comN) && isset($mail)){
 
 	//récupération des informations du certificat principal
 	$CAcrt = "certificat.crt";

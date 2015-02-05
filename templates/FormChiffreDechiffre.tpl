@@ -1,5 +1,7 @@
 <?php
-    error_reporting( E_ALL );
+
+    $chiffrement = (isset($_POST["return_chiffrement"])) ? htmlentities($_POST["return_chiffrement"]) : NULL;
+    $dechiffrement = (isset($_POST["return_dechiffrement"])) ? htmlentities($_POST["return_dechiffrement"]) : NULL;
 ?>
 <div class="vacciner-container">
     <h1 style="text-align: center; color: red">Chiffrement & Déchiffrement</h1>
@@ -8,11 +10,11 @@
 <div class="col-sm-6" style="border-right:1px solid #397bce;">
   <h3 style="text-align: center; color: red">Chiffrement</h3>
   </br>
-  <form method="post" class="form-horizontal" role="form">
+  <form action="modeles/ClePublique.php" method="post" class="form-horizontal" role="form">
     <div class="form-group">
       <label class="col-sm-3 control-label">Certificat : </label>
       <div class="col-sm-9">
-        <input name="nom" type="text" class="form-control" placeholder="Certificat personnel" required>
+        <input type="file" id="cerRac" name="cerRac" class="form-control" required />
       </div>
     </div>
     <div class="form-group">
@@ -23,7 +25,7 @@
     </div>
     <div class="form-group">
       <div class="col-sm-offset-8 col-sm-4">
-        <button name="chiffrer" type="submit" class="btn btn-primary" style="width:100%">Chiffrer le texte</button>
+        <button name="chiffrer" type="button" class="btn btn-primary" style="width:100%">Chiffrer le texte</button>
       </div>
     </div>
   </form>
@@ -31,7 +33,7 @@
     <div class="form-group">
       <div class="col-sm-12">
         <label for="textChiffrerAL" class="control-label" style="color:white">Texte chiffrer : </label>
-        <textarea id="textChiffrerAL" name="TextChiffrerAL" class="form-control" rows="3"></textarea>
+        <textarea id="textChiffrerAL" name="TextChiffrerAL" class="form-control" rows="3"><?php if ( isset ( $chiffrement ) ) { echo $chiffrement; }; ?></textarea>
       </div>
     </div>
   </div>
@@ -40,11 +42,11 @@
 <div class="col-sm-6">
   <h3 style="text-align: center; color: red">Déchiffrement</h3>
   </br>
-  <form method="post" class="form-horizontal" role="form">
+  <form action="modeles/ClePublique.php" method="post" class="form-horizontal" role="form">
     <div class="form-group">
       <label class="col-sm-3 control-label">Clé privée : </label>
       <div class="col-sm-9">
-        <input name="nom" type="text" class="form-control" placeholder="Clé privée" required>
+        <input type="file" id="clePrim" name="clePrim" class="form-control" required />
       </div>
     </div>
     <div class="form-group">
@@ -63,7 +65,7 @@
     <div class="form-group">
       <div class="col-sm-12">
         <label for="textDechiffrerAL" class="control-label" style="color:white">Texte déchiffrer : </label>
-        <textarea id="textDechiffrerAL" name="TextDechiffrerAL" class="form-control" rows="3"></textarea>
+        <textarea id="textDechiffrerAL" name="TextDechiffrerAL" class="form-control" rows="3"><?php if ( isset ( $dechiffrement ) ) { echo $dechiffrement; }; ?></textarea>
       </div>
     </div>
   </div>

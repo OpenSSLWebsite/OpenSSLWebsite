@@ -65,45 +65,4 @@
   </div>
 </form>
 
-<div class="form-horizontal">
-  <div class="form-group">
-    <div class="col-sm-4">
-      <label for="textKeyPrivate" class="control-label">Clé Privée : </label>
-      <textarea id="textKeyPrivate" name="textKeyPrivate" class="form-control" rows="3" readonly></textarea>
-    </div>
-    <div class="col-sm-4">
-      <label for="textRequete" class="control-label">Requête : </label>
-      <textarea id="textRequete" name="Requete" class="form-control" rows="3" readonly></textarea>
-    </div>
-    <div class="col-sm-4">
-      <label for="textCertificat" class="control-label">Certificat : </label>
-      <textarea id="textCertificat" name="Requete" class="form-control" rows="3" readonly></textarea>
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="col-sm-offset-3 col-sm-2">
-      <form method="post" role="form">
-        <button name="telClePrivee" type="submit" class="btn btn-primary" style="width:100%" disabled>Télécharger Clé privée</button>
-      </form>
-    </div>
-    <div class="col-sm-2">
-      <form method="post" role="form">
-        <button name="telRequete" type="submit" class="btn btn-primary" style="width:100%" disabled>Télécharger Requête</button>
-      </form>
-    </div>
-    <div class="col-sm-2">
-      <form method="post" role="form">
-        <button name="telCertificat" type="submit" class="btn btn-primary" style="width:100%" disabled>Télécharger Certificat</button>
-      </form>
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="col-sm-offset-3 col-sm-6">
-      <form method="post" role="form">
-        <button name="ChiffreDechiffre" type="submit" class="btn btn-primary" style="width:100%" disabled>Chiffrement d'un document</button>
-      </form>
-    </div>
-  </div>
-</div>
-
 </div>
